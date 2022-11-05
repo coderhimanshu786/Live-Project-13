@@ -1,0 +1,155 @@
+@media only screen and (max-width: 1240px) {
+    nav ul li,
+    nav ul button {
+      display: none;
+    }
+    nav ul li.menu {
+      display: block;
+      color: var(--black-color-gray);
+    }
+    .imageWithTextBox .marginBox .contentBox h2 {
+      font-size: 36px;
+    }
+    .ourServiceHead h2 {
+      width: 50%;
+    }
+    .priceBoxSection .priceBox {
+      width: 50%;
+    }
+  }
+  @media only screen and (max-width: 1024px) {
+    .imageWithTextBox .marginBox {
+      flex-wrap: wrap;
+    }
+    .imageWithTextBox .marginBox .contentBox h2 {
+      font-size: 24px;
+    }
+    .imageWithTextBox .marginBox .contentBox p {
+      font-size: 16px;
+    }
+    .ourServiceHead {
+      flex-wrap: wrap;
+      text-align: center;
+    }
+    .ourServiceHead h2 {
+      width: 100%;
+      line-height: 1.3;
+      padding-bottom: 10px;
+      font-size: 34px;
+    }
+    .ourServiceHead p {
+      width: 100%;
+    }
+    .ourServicesSection .mainBox .servicesBoxes {
+      width: 50%;
+    }
+    .ourServicesSection .mainBox .servicesBoxes p {
+      width: 90%;
+    }
+    .highLightSection .leftBox h2,
+    .highLightSection .leftBox p {
+      width: 80%;
+    }
+    .footerLogo {
+      width: 40%;
+    }
+    .socialLinks {
+      width: 100%;
+      padding-top: 30px;
+    }
+    .footerLogo p {
+      width: 90%;
+    }
+    .middleBox {
+      width: 60%;
+    }
+    /* .imageWithTextBox .marginBox .imageBox,
+    .imageWithTextBox .marginBox .contentBox {
+      width: 100%;
+    }
+    .imageWithTextBox .marginBox .imageBox img {
+      width: 50%;
+    } */
+  }
+  @media only screen and (max-width: 768px) {
+    .imageWithTextBox .marginBox .imageBox,
+    .imageWithTextBox .marginBox .contentBox {
+      width: 100%;
+    }
+    .ourServicesSection .mainBox .servicesBoxes,
+    .ourServicesSection .mainBox .servicesBoxes p,
+    .priceBoxSection .priceBox,
+    .mainFeedBackBox .boxes,
+    .highLightSection .leftBox h2,
+    .highLightSection .leftBox p,
+    .footerLogo,
+    .footerLogo p,
+    .middleBox {
+      width: 100%;
+    }
+    .pricingSection > h2 {
+      font-size: 32px;
+    }
+    .footerLogo {
+      padding-bottom: 20px;
+    }
+    .highLightSection .rightBox {
+      /* bottom: 10% !important;
+      height: 100%;
+      width: 100%; */
+      top: 85%;
+      left: 50%;
+      transform: translate(-85%, -50%);
+    }
+  }
+  @media only screen and (max-width: 575px) {
+    .customerFeedBackSection .heading p {
+      width: 100%;
+    }
+    .highLightSection .leftBox h2,
+    .highLightSection .leftBox p {
+      font-size: 28px;
+    }
+    .highLightSection .leftBox p {
+      font-size: 18px;
+    }
+  }
+  @media only screen and (max-width: 475px) {
+    .ourServiceHead h2,
+    .pricingSection > h2 {
+      font-size: 28px;
+    }
+    .ourServiceHead p {
+      font-size: 16px;
+    }
+    .priceBox .priceMarginBox ul {
+      padding: 20px;
+    }
+    .customerFeedBackSection {
+      padding: 20px 0;
+    }
+    .customerFeedBackSection .heading h2 {
+      font-size: 28px;
+      font-weight: 600;
+    }
+    .imageWithTextBox .marginBox .imageBox img {
+      padding: 20px 0;
+    }
+    .priceBox .priceMarginBox .priceHead h2 {
+      font-size: 18px;
+    }
+    .priceBox .priceMarginBox .priceHead p {
+      font-size: 16px;
+    }
+    .selectPlanSection h2 {
+      font-size: 24px;
+    }
+    .middleBox {
+      flex-wrap: wrap;
+      justify-content: start;
+    }
+    .middleBox ul {
+      width: 50%;
+      margin-bottom: 10px;
+    }
+  }
